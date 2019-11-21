@@ -1,0 +1,13 @@
+ACCOUNTID=485784192518
+SERVICEROLE=arn:aws:iam::485784192518:role/iam-awsBatchServiceRole-XDEECG2V2PNX
+IAMFLEETROLE=arn:aws:iam::485784192518:role/iam-spotFleetRole-1ISQE1T5ITBQD
+JOBROLEARN=arn:aws:iam::485784192518:role/iam-ecsTaskRole-1CBKL4UBKLYS
+SUBNETS=subnet-4cdf8236, subnet-17d5515b, subnet-c624c3ad
+SECGROUPS=sg-88cb17ed
+SPOTPER=50
+IMAGEID=<ami-id corresponding to the one you created>
+INSTANCEROLE=<from output in CloudFormation template>
+REGISTRY=${ACCOUNTID}.dkr.ecr.us-east-1.amazonaws.com
+KEYNAME=<your key name>
+MAXCPU=1024 # max vCPUs in compute environment
+ENV=myenv
